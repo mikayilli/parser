@@ -19,7 +19,6 @@ if(isset($_POST['url'])) {
 
     if($arr[2] === 'www.defacto.com.tr') {
         $site = 'Defacto';
-//    print_r($output);
     }else if($arr[2] === 'www.hepsiburada.com') {
         $site = 'HepsiBurda';
     }
